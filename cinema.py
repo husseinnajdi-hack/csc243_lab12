@@ -39,10 +39,7 @@ def reserve(hall,guest,n):
         guest.add_tickets(n)
     else:
         print("Hall is full")
-hall=hall("A",0)
-maya=guest("maya",11)
-print ( hall . has_seats () )
-reserve ( hall , maya , 5)
+
 print ( maya . get_tickets () )
 hall . set_seats (40)
 reserve ( hall , maya , 5)
